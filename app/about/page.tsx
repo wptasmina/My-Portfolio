@@ -1,8 +1,6 @@
 import Title from "@/components/shared/CustomStyle/Title/Title"
 
 
-
-
  const AboutPage =()=> {
   return (
     <section className="section-continar">
