@@ -1,5 +1,5 @@
 import Title from '@/components/shared/CustomStyle/Title/Title'
-import CustomButton from '@/components/ui/CustomButton'
+
 
 
  const AboutPage =()=> {
@@ -7,7 +7,7 @@ import CustomButton from '@/components/ui/CustomButton'
     <section className="section-continar">
         <Title heading="About Us"></Title>
 
-        <CustomButton variant="primary">Primary</CustomButton>
+        {/* <CustomButton variant="primary">Primary</CustomButton> */}
        
     </section>
   )
