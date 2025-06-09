@@ -1,4 +1,5 @@
-import Title from '@/components/shared/CustomStyle/Title/Title'
+import Title from "@/components/shared/CustomStyle/Title/Title"
+
 
 
 
