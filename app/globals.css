@@ -176,10 +176,15 @@ a {
   body {
     margin: 0;
     padding: 0;
-    @apply bg-background text-foreground;
+    /* @apply bg-background text-foreground; */
+    @apply bg-white text-black;
   }
   
 }
+.dark body {
+  @apply bg-gray-950 text-foreground;
+}
+
 
 @layer components {
   .wrapper {
