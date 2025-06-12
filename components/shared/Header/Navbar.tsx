@@ -2,6 +2,7 @@
 
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
   SheetHeader,
@@ -30,7 +31,7 @@ const socialLinks = [
 
 const Navbar = () => {
   const pathname = usePathname();
-
+const MotionLink = motion(Link);
   const renderMenuItems = (isMobile = false) =>
     menuItems.map(({ label, href }, index) => {
       const isActive = pathname === href;
@@ -42,23 +43,31 @@ const Navbar = () => {
               : "dark:text-white/80 text-content hover:text-heroText hover:dark:text-heroText"
           }`;
 
-      return (
-        <motion.div
-          key={href}
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          transition={{
-            delay: index * 0.1,
-            duration: 0.3,
-            ease: "easeInOut",
-          }}
-        >
-          <Link href={href} className={classes}>
+      const link = (
+        <Link href={href} key={href}>
+          <motion.div
+            className={classes}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            transition={{
+              delay: index * 0.1,
+              duration: 0.3,
+              ease: "easeInOut",
+            }}
+          >
             {label}
-          </Link>
-        </motion.div>
+          </motion.div>
+        </Link>
+      );
+
+      return isMobile ? (
+        <SheetClose asChild key={href}>
+          {link}
+        </SheetClose>
+      ) : (
+        <div key={href}>{link}</div>
       );
     });
 
@@ -130,7 +139,10 @@ const Navbar = () => {
                   <SheetDescription>
                     <div className="py-4 space-y-4">{renderMenuItems(true)}</div>
                     <div className="h-px bg-gray-700 my-4" />
-                    <div className="flex gap-3">{renderSocialLinks()} <ModeToggle /></div>
+                    <div className="flex gap-3">
+                      {renderSocialLinks()}
+                      <ModeToggle />
+                    </div>
                   </SheetDescription>
                 </SheetHeader>
               </SheetContent>
