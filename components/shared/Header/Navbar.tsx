@@ -31,7 +31,7 @@ const socialLinks = [
 
 const Navbar = () => {
   const pathname = usePathname();
-const MotionLink = motion(Link);
+
   const renderMenuItems = (isMobile = false) =>
     menuItems.map(({ label, href }, index) => {
       const isActive = pathname === href;
@@ -137,9 +137,11 @@ const MotionLink = motion(Link);
                     Tasmina
                   </SheetTitle>
                   <SheetDescription>
-                    <div className="py-4 space-y-4">{renderMenuItems(true)}</div>
-                    <div className="h-px bg-gray-700 my-4" />
-                    <div className="flex gap-3">
+                    <div className="py-4 flex flex-col gap-5 border-none outline-none px-8">
+                      {renderMenuItems(true)}
+                    </div>
+                    <div className="h-px bg-gray-200 dark:bg-gray-800 my-6" />
+                    <div className="flex gap-3 ">
                       {renderSocialLinks()}
                       <ModeToggle />
                     </div>
