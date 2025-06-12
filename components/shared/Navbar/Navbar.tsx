@@ -17,7 +17,6 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { Logo } from "./Logo";
 
-
 const menuItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
@@ -38,7 +37,11 @@ const Navbar = () => {
     menuItems.map(({ label, href }, index) => {
       const isActive = pathname === href;
       const classes = isMobile
-        ? `block text-base font-medium ${isActive ? "text-heroText" : "text-gray-900 dark:text-white hover:text-heroText"}`
+        ? `block text-base font-medium ${
+            isActive
+              ? "text-heroText"
+              : "text-gray-900 dark:text-white hover:text-heroText"
+          }`
         : `transition-colors uppercase md:text-md text-xs font-medium ${
             isActive
               ? "font-semibold text-heroText hover:text-heroText dark:text-heroText"
