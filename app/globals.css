@@ -192,11 +192,14 @@ a {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
     /* hero section start */
- 
+  
   /* hero section start */
 
   .contentText{
     @apply md:flex-row justify-between flex-col-reverse gap-12 md:gap-20 py-6
+  }
+  .d-flex{
+    @apply flex items-center
   }
 
 /* hero section end */

@@ -1,13 +1,15 @@
 // components/HomeSection/HeroSection.tsx
 
-import React from 'react'
+"use client";
 
-const HeroSection = () => {
+import GridPatternLinearGradient from "../grid-pattern-linear-gradient";
+
+
+
+export default function HeroSection() {
   return (
-    <div>
-      HeroSection
-    </div>
-  )
+    <section className="">
+      <GridPatternLinearGradient />
+    </section>
+  );
 }
-
-export default HeroSection
