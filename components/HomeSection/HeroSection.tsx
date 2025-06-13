@@ -1,10 +1,10 @@
+import React from 'react'
 
-import { SpotlightPreview } from './SpotlightPreview'
-
-export default function HeroSection() {
+export const HeroSection = () => {
   return (
     <div>
-      <SpotlightPreview />
+      header
     </div>
   )
 }
+
