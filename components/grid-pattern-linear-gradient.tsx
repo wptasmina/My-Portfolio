@@ -41,7 +41,10 @@ export default function GridPatternLinearGradient() {
                 transition={fadeUp.transition(0.6)}
                 className="hero-title font-desc-josefin mb-4"
               >
-                Crafting seamless, modern web experiences —
+                Crafting seamless, modern <br/>
+                <span className=" ml-2 text-transparent bg-clip-text bg-gradient-to-r from-heroText to-blue-400">
+                   web experiences —
+                </span>
               </motion.h2>
               <motion.h1
                 {...fadeUp}
@@ -73,7 +76,7 @@ export default function GridPatternLinearGradient() {
               <motion.div
                 {...fadeUp}
                 transition={fadeUp.transition(1.3)}
-                className="flex justify-center md:justify-start gap-4 mb-8"
+                className="flex justify-center md:justify-start gap-4 mb-6"
               >
                 <GradientButton
                   icon={<PhoneIcon className="h-4 w-4" />}
@@ -94,7 +97,7 @@ export default function GridPatternLinearGradient() {
                 </GradientButton>
               </motion.div>
               {/* Countup Section */}
-                <Counts />
+              <Counts />
             </motion.div>
 
             {/* Image Section */}
