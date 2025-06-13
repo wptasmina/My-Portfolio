@@ -1,5 +1,5 @@
 
-import HeroSection from "@/components/HomeSection/HeroSection";
+
 import { Button } from "@/components/ui/button";
 // import AboutPage from "./about/page";
 

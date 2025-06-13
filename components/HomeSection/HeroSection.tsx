@@ -1,7 +1,13 @@
 // components/HomeSection/HeroSection.tsx
 
-const HeroSection = () => {
-  return <div>Hero</div>;
-};
+import React from 'react'
 
-export default HeroSection;
+const HeroSection = () => {
+  return (
+    <div>
+      HeroSection
+    </div>
+  )
+}
+
+export default HeroSection
