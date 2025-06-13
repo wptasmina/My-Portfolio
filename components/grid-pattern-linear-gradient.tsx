@@ -7,12 +7,13 @@ import { motion } from "framer-motion";
 import { fadeLeft, fadeUp } from "@/lib/motionVariants";
 import tasmiImg from "@/assets/tasmina.png";
 import { Button } from "./ui/button";
+import { ArrowDownTrayIcon, FolderArrowDownIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 export default function GridPatternLinearGradient() {
   return (
-    <section className="relative overflow-hidden bg-zinc-50 dark:bg-black min-h-screen w-full">
+    <section className=" relative overflow-hidden bg-zinc-50 dark:bg-black min-h-screen w-full">
       {/* GridPattern as background */}
-      <div className="absolute top-0 left-0 w-full h-full z-0">
+      <div className="absolute top-0 left-0 w-full h-full z-0 section-gradientImg animate-pulse">
         <GridPattern
           width={20}
           height={20}
@@ -34,7 +35,7 @@ export default function GridPatternLinearGradient() {
               transition={fadeLeft.transition()}
               className="w-full md:w-2/3 text-center md:text-left lg:mt-15 md:mt-0 pb-10 md:pb-0"
             >
-            <motion.h2
+              <motion.h2
                 {...fadeUp}
                 transition={fadeUp.transition(0.6)}
                 className="hero-title font-desc-josefin mb-4"
@@ -56,8 +57,6 @@ export default function GridPatternLinearGradient() {
                 </motion.span>
               </motion.h1>
 
-             
-
               <motion.p
                 {...fadeUp}
                 transition={fadeUp.transition(1.1)}
@@ -65,22 +64,27 @@ export default function GridPatternLinearGradient() {
               >
                 Specializing in React, Node.js, Next.js, and Cloud Architecture.
                 Experienced in building robust, scalable, and SEO-optimized web
-                applications using modern full-stack technologies and cloud-native
-                solutions.
+                applications using modern full-stack technologies and
+                cloud-native solutions.
               </motion.p>
 
-                {/* Button Section */}
+              {/* Button Section */}
               <motion.div
                 {...fadeUp}
                 transition={fadeUp.transition(1.3)}
                 className="flex justify-center md:justify-start gap-4 mb-4"
               >
-               
-                <Button>1</Button>
-                <Button>2</Button>
+                <button onClick={() =>
+                  window.open("https://wa.me/8801581543966", "_blank")
+                } className="flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-b from-zinc-950 to-[#03a5f0] text-white focus:ring-2 focus:ring-heroText hover:shadow-xl transition duration-200">
+                  <PhoneIcon className="h-4 w-4" /> Contact Me 
+                </button>
+                <button onClick={() => window.open("/resume.pdf", "_blank")}  className="flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-b from-zinc-950 to-[#03a5f0] text-white focus:ring-2 focus:ring-heroText hover:shadow-xl transition duration-200">
+                   <ArrowDownTrayIcon className="h-4 w-4 animate-bounce" /> Download CV 
+                </button>
               </motion.div>
-                {/* Countup Section */}
-                {/* countup  */}
+              {/* Countup Section */}
+              {/* countup  */}
               <Button>Countup</Button>
             </motion.div>
 

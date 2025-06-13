@@ -206,7 +206,13 @@ a {
   .d-flex{
     @apply flex items-center
   }
+.section-gradientImg {
+    background-image: url('/sky-shine.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
+  }
 /* hero section end */
  
   /* Header - border  */
