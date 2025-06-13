@@ -16,7 +16,7 @@ a {
 
   --color-heroBg: var(--heroBg);
   --color-heroText: var(--heroText);
-  --color-secondary-clr: var(--secondary-clr);
+  --color-secondaryHeroText: var(--secondaryHeroText);
   --color-surface: var(--surface);
   --color-tertiary: var(--tertiary);
   --color-content-text: var(--content-text);
@@ -84,7 +84,7 @@ a {
 :root {
   --heroBg: #0a0a0a;
   --heroText: #0ea5e9;
-  --secondary-clr: #8b5cf6;
+  --secondaryHeroText: #8b5cf6;
   --surface: #1a1a1a;
   --tertiary: #ec4899;
   --content-text: #171717;
@@ -128,7 +128,7 @@ a {
 .dark {
   --heroBg: #0a0a0a;
   --heroText: #0ea5e9;
-  --secondary-clr: #8b5cf6;
+  --secondaryHeroText: #8b5cf6;
   --surface: #1a1a1a;
   --tertiary: #ec4899;
   --content-text: #171717;
@@ -192,7 +192,12 @@ a {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
     /* hero section start */
-  
+  .hero-title {
+    @apply text-3xl md:text-4xl font-extrabold leading-tight 
+  }
+  .hero-title-color{
+     @apply bg-gradient-to-r from-heroText via-secondaryHeroText to-tertiary bg-clip-text text-transparent
+  }
   /* hero section start */
 
   .contentText{
