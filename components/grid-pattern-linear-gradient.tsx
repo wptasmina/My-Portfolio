@@ -7,7 +7,8 @@ import { motion } from "framer-motion";
 import { fadeLeft, fadeUp } from "@/lib/motionVariants";
 import tasmiImg from "@/assets/tasmina.png";
 import { Button } from "./ui/button";
-import { ArrowDownTrayIcon, FolderArrowDownIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import { GradientButton } from "@/components/ui/gradient-button";
+import { PhoneIcon, ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 
 export default function GridPatternLinearGradient() {
   return (
@@ -74,14 +75,23 @@ export default function GridPatternLinearGradient() {
                 transition={fadeUp.transition(1.3)}
                 className="flex justify-center md:justify-start gap-4 mb-4"
               >
-                <button onClick={() =>
-                  window.open("https://wa.me/8801581543966", "_blank")
-                } className="flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-b from-zinc-950 to-[#03a5f0] text-white focus:ring-2 focus:ring-heroText hover:shadow-xl transition duration-200">
-                  <PhoneIcon className="h-4 w-4" /> Contact Me 
-                </button>
-                <button onClick={() => window.open("/resume.pdf", "_blank")}  className="flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-b from-zinc-950 to-[#03a5f0] text-white focus:ring-2 focus:ring-heroText hover:shadow-xl transition duration-200">
-                   <ArrowDownTrayIcon className="h-4 w-4 animate-bounce" /> Download CV 
-                </button>
+                <GradientButton
+                  icon={<PhoneIcon className="h-4 w-4" />}
+                  onClick={() =>
+                    window.open("https://wa.me/8801581543966", "_blank")
+                  }
+                >
+                  Contact Me
+                </GradientButton>
+
+                <GradientButton
+                  icon={
+                    <ArrowDownTrayIcon className="h-4 w-4 animate-bounce" />
+                  }
+                  onClick={() => window.open("/resume.pdf", "_blank")}
+                >
+                  Download CV
+                </GradientButton>
               </motion.div>
               {/* Countup Section */}
               {/* countup  */}
