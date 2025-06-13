@@ -1,7 +1,7 @@
 // components/HomeSection/HeroSection.tsx
 
-
-export const HeroSection = () => {
-  return <div>...</div>;
+const HeroSection = () => {
+  return <div>Hero</div>;
 };
 
+export default HeroSection;
