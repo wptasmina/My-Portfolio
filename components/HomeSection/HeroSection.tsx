@@ -1,10 +1,7 @@
+// components/HomeSection/HeroSection.tsx
 
 
 export const HeroSection = () => {
-  return (
-    <div>
-      header
-    </div>
-  )
-}
+  return <div>...</div>;
+};
 
