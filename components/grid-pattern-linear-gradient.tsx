@@ -2,9 +2,9 @@
 
 import { cn } from "@/lib/utils";
 import { GridPattern } from "./magicui/grid-pattern";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeLeft, fadeUp } from "@/lib/motionVariants";
+import Image from "next/image";
 import tasmiImg from "@/assets/tasmina.png";
 import { GradientButton } from "@/components/ui/gradient-button";
 import { PhoneIcon, ArrowDownTrayIcon } from "@heroicons/react/24/solid";

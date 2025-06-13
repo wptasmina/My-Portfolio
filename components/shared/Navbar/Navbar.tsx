@@ -101,7 +101,7 @@ const Navbar = () => {
           <Logo />
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center justify-center gap-4 dark:bg-background px-4 py-2 border border-gray-100 dark:border-gray-900 rounded-full">
+          <div className="hidden md:flex items-center justify-center gap-4 dark:bg-background px-6 py-3 border border-gray-100 dark:border-gray-900 rounded-full">
             {renderMenuItems()}
           </div>
 

@@ -37,7 +37,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
         <Navbar />
-        <main className="">
+        <main>
           {children}
         </main>
         {/* <Footer /> */}
