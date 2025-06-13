@@ -6,9 +6,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeLeft, fadeUp } from "@/lib/motionVariants";
 import tasmiImg from "@/assets/tasmina.png";
-import { Button } from "./ui/button";
 import { GradientButton } from "@/components/ui/gradient-button";
 import { PhoneIcon, ArrowDownTrayIcon } from "@heroicons/react/24/solid";
+import Counts from "./HomeSection/border-beam-demo-3";
 
 export default function GridPatternLinearGradient() {
   return (
@@ -95,7 +95,7 @@ export default function GridPatternLinearGradient() {
               </motion.div>
               {/* Countup Section */}
               {/* countup  */}
-              <Button>Countup</Button>
+              <Counts />
             </motion.div>
 
             {/* Image Section */}

@@ -24,7 +24,7 @@ const stats:  StatItem[] = [
 export const CountsUp = () => {
   return (
 <section className="py-8">
-  <div className="border border-gray-800 bg-content/20 backdrop:blur-2xl shadow rounded-lg py-6 px-2">
+  <div className="">
     <div className="d-grid gap-4">
       
       {stats.map(({ num, text }, index) => (
