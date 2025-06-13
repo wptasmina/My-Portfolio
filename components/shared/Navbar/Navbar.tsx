@@ -95,7 +95,7 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
       className="fixed w-full dark:bg-background/30 backdrop:bg-white/50 backdrop-blur border-b border-gray-200 dark:border-gray-900 z-50 shadow overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-6 py-3 w-full">
+      <div className="max-w-7xl mx-auto px-4 py-3 w-full">
         <div className="flex items-center justify-between">
           {/* Server-side logo and name */}
           <Logo />
