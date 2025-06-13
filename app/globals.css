@@ -193,7 +193,7 @@ a {
   }
     /* hero section start */
   .hero-title {
-    @apply text-3xl md:text-4xl lg:text-4xl  font-extrabold leading-tight 
+    @apply text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight 
   }
   .hero-title-color{
      @apply bg-gradient-to-r from-heroText via-secondaryHeroText to-tertiary bg-clip-text text-transparent

@@ -10,7 +10,7 @@ import { Button } from "./ui/button";
 
 export default function GridPatternLinearGradient() {
   return (
-    <section className="relative overflow-hidden bg-white dark:bg-black min-h-screen w-full">
+    <section className="relative overflow-hidden bg-zinc-50 dark:bg-black min-h-screen w-full">
       {/* GridPattern as background */}
       <div className="absolute top-0 left-0 w-full h-full z-0">
         <GridPattern
@@ -27,12 +27,12 @@ export default function GridPatternLinearGradient() {
       {/* Main content over GridPattern */}
       <div className="relative z-10 min-h-screen flex items-center justify-center">
         <div className="wrapper w-full">
-          <div className="flex flex-col md:flex-row items-center justify-between min-h-screen gap-8">
+          <div className="md:mt-0 lg:mt-0 flex flex-col-reverse md:flex-row items-center justify-between min-h-screen gap-8">
             {/* Text Content */}
             <motion.div
               {...fadeLeft}
               transition={fadeLeft.transition()}
-              className="w-full md:w-1/2 text-center md:text-left"
+              className="w-full md:w-2/3 text-center md:text-left lg:mt-15 md:mt-0 pb-10 md:pb-0"
             >
             <motion.h2
                 {...fadeUp}
@@ -61,7 +61,7 @@ export default function GridPatternLinearGradient() {
               <motion.p
                 {...fadeUp}
                 transition={fadeUp.transition(1.1)}
-                className="text-md md:text-lg text-content font-desc-josefin tracking-wide  dark:text-foreground/80 mb-6 leading-relaxed"
+                className="text-sm md:text-md lg:text-lg text-content font-desc-josefin tracking-wide  dark:text-foreground/80 mb-6 leading-relaxed md:pr-10 lg:pr-40"
               >
                 Specializing in React, Node.js, Next.js, and Cloud Architecture.
                 Experienced in building robust, scalable, and SEO-optimized web
@@ -86,7 +86,7 @@ export default function GridPatternLinearGradient() {
 
             {/* Image Section */}
             <motion.div
-              className="w-full md:w-1/2 flex justify-center"
+              className="w-full md:w-1/3 flex justify-center mt-20 md:mt-0"
               {...fadeUp}
               transition={fadeUp.transition(1.5)}
             >
