@@ -17,7 +17,7 @@ export default function Counts() {
         duration={4}
         size={200}
         reverse
-        className="from-transparent via-heroText to-transparent"
+        className="from-transparent via-[#03a5f0] to-transparent"
       />
     </Card>
   );
