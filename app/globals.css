@@ -207,9 +207,9 @@ a {
     @apply flex items-center
   }
   .d-grid {
-    @apply  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
+    @apply  grid grid-cols-2 md:grid-cols-4 
   }
-  
+
 .section-gradientImg {
     background-image: url('/sky-shine.png');
     background-repeat: no-repeat;

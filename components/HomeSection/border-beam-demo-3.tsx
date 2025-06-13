@@ -8,16 +8,16 @@ import { CountsUp } from "./CountsUp";
 
 export default function Counts() {
   return (
-    <Card className="relative w-full overflow-hidden">
+    <Card className="relative dark:bg-zinc-950 md:w-[80%] overflow-hidden">
 
-         <div>
-              <CountsUp />
+        <div>
+            <CountsUp />
         </div>
       <BorderBeam
         duration={4}
-        size={300}
+        size={200}
         reverse
-        className="from-transparent via-green-500 to-transparent"
+        className="from-transparent via-heroText to-transparent"
       />
     </Card>
   );

@@ -73,7 +73,7 @@ export default function GridPatternLinearGradient() {
               <motion.div
                 {...fadeUp}
                 transition={fadeUp.transition(1.3)}
-                className="flex justify-center md:justify-start gap-4 mb-4"
+                className="flex justify-center md:justify-start gap-4 mb-8"
               >
                 <GradientButton
                   icon={<PhoneIcon className="h-4 w-4" />}
@@ -94,8 +94,7 @@ export default function GridPatternLinearGradient() {
                 </GradientButton>
               </motion.div>
               {/* Countup Section */}
-              {/* countup  */}
-              <Counts />
+                <Counts />
             </motion.div>
 
             {/* Image Section */}
