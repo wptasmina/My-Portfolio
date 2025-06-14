@@ -20,6 +20,7 @@ import { Logo } from "./Logo";
 const menuItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
+  { href: "/services", label: "Services" },
   { href: "/projects", label: "Projects" },
   { href: "/blogs", label: "Blogs" },
   { href: "/contact", label: "Contact" },

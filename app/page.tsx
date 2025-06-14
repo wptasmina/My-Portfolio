@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HomeSection/HeroSection";
 import Projects from "@/components/Projects/Projects";
+import ServicePage from "./services/page";
 // import AboutPage from "./about/page";
 
 
@@ -10,7 +11,7 @@ export default function Home() {
         <HeroSection />
 
         {/* <AboutPage/> */}
-
+        <ServicePage/>
        <Projects />
       </main>
 
