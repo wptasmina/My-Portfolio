@@ -1,11 +1,11 @@
 "use client";
-
+import React from "react";
 import { DotPattern } from "../magicui/dot-pattern";
-import { cn } from "@/lib/utils";
 import ServicesCard from "./ServicesCard";
-import { ShinyButton } from "@/components/magicui/shiny-button";
-import { services } from "@/data/services"; 
+import { ShinyButton } from "../magicui/shiny-button";
+import { services } from "@/data/services";
 import SectionTitle from "../shared/CustomStyle/SectionTitle/SectionTitle";
+import { cn } from "@/lib/utils";
 
 
  

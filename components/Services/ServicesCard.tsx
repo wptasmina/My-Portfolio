@@ -1,8 +1,9 @@
 "use client";
+
 import { Service } from "@/types";
 import { MagicCard } from "../magicui/magic-card";
+import { ShimmerButton } from "../magicui/shimmer-button";
 import { useTheme } from "next-themes";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
 
 const ServicesCard = ({ icon: Icon, title, description }: Service) => {
