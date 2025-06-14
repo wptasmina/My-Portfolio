@@ -233,6 +233,17 @@ a {
   .wrapper {
     @apply max-w-7xl mx-auto px-4 ;
   }
+  .d-flex{
+    @apply flex items-center
+  }
+  .d-grid {
+    @apply  grid grid-cols-2 md:grid-cols-4 
+  }
+  .btnSocial {
+    @apply w-10 h-10 flex items-center justify-center cursor-pointer rounded-full bg-black text-[#e6e6e6] font-semibold border transition duration-300
+  }
+
+
     /* hero section start */
   .hero-title {
     @apply text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight 
@@ -245,15 +256,6 @@ a {
   .contentText{
     @apply md:flex-row justify-between flex-col-reverse gap-12 md:gap-20 py-6
   }
-  .d-flex{
-    @apply flex items-center
-  }
-  .d-grid {
-    @apply  grid grid-cols-2 md:grid-cols-4 
-  }
-  .btnSocial {
-    @apply w-10 h-10 flex items-center justify-center cursor-pointer rounded-full bg-black text-[#e6e6e6] font-semibold border transition duration-300
-  }
 
 .section-gradientImg {
     background-image: url('/sky-shine.png');
@@ -263,7 +265,12 @@ a {
 
   }
 /* hero section end */
-
+  /* .section-title {
+    @apply text-3xl md:text-5xl font-bold mb-8 text-center text-foreground;
+  }
+  .section-desc {
+    @apply text-content dark:text-gray-400 text-xl max-w-2xl mx-auto
+  } */
   /* Header - border  */
   .right-line{
     @apply to-tertiary absolute top-[20px]  h-[1.5px] w-[100px] rounded from-transparent md:w-[150px] lg:w-[200px]
