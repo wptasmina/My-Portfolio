@@ -91,4 +91,22 @@ export const projects: Project[] = [
     demoLink: "https://wptasmina.github.io/Foodei",
     image: "/projects/foodei.webp",
   },
+  {
+    id: 11,
+    title: "Agency Website",
+    description: "The Agency Website is a modern, responsive platform built with HTML, CSS, Bootstrap, and JavaScript. It features smooth animations, video integration, and a user-friendly design for seamless user interaction.",
+    technologies: ["HTML5", "CSS3", "JavaScript","jQuery", "Bootstrap5"],
+    githubLink: "https://github.com/wptasmina",
+    demoLink: "https://wptasmina.github.io/agency_website",
+    image: "/projects/agency_website.webp",
+  },
+  {
+    id: 12,
+    title: "Personal Website",
+    description: "The Agency Website is a modern, responsive platform built with HTML, CSS, Bootstrap, and JavaScript. It features smooth animations, video integration, and a user-friendly design for seamless user interaction.",
+    technologies: ["HTML5", "CSS3", "JavaScript","jQuery", "Bootstrap5"],
+    githubLink: "https://github.com/wptasmina",
+    demoLink: "https://portfolio-website-tasmi.vercel.app",
+    image: "/projects/personal-website.webp",
+  },
 ];
