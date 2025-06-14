@@ -1,16 +1,17 @@
-import { projects } from '@/data/projects';
-import { ProjectCard } from './ProjectCard';
+import { projects } from "@/data/projects";
+import { ProjectCard } from "./ProjectCard";
+
 
 
 export default function AllProject() {
   return (
     <>
-    <section className='section-continar py-20'>
+    <section className='relative overflow-hidden py-20'>
       <div className='wrapper'>
         <h2 className='text-3xl text-center font-bold mb-8'>All Project</h2>
 
          {/* More content here */}
-          <div className="d-grid gap-6 shadow-2xl">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 shadow">
             {projects.map((project, index) => (
               <ProjectCard key={index} {...project} />
             ))}
