@@ -21,10 +21,10 @@ const Service = () => {
       <div className="text-center relative z-10 mb-10">
         <ShinyButton>Services</ShinyButton>
         <SectionTitle
-         heading="Crafting Impactful Digital Experiences"
+         heading={`Crafting Impactful Digital Experiences`}
 
-         subHeading="Turning bold ideas into beautiful, high-performance web solutions—
-          powered by modern technology and thoughtful design."
+         subHeading={`Turning bold ideas into beautiful, high-performance web solutions—
+powered by modern technology and thoughtful design.`}
          />
       </div>
        <DotPattern

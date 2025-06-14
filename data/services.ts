@@ -1,12 +1,7 @@
 import { Service } from "@/types";
-import { WrenchScrewdriverIcon } from "@heroicons/react/24/outline";
-import {
-  Code2,
-  Palette,
-  Rocket,
-  Database,
-  Gauge,
-} from "lucide-react";
+import { WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
+import { Code2, Database, Gauge, Palette, Rocket } from "lucide-react";
+
 
 export const services: Service[] = [
   {

@@ -4,6 +4,7 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { DotPattern } from "./magicui/dot-pattern";
 
+
 export function DotPatternDemo() {
   return (
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background">
