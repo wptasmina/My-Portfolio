@@ -8,7 +8,7 @@ export const projects: Project[] = [
         technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe'],
         githubLink: 'https://github.com/wptasmina',
         demoLink: 'https://xyzcompany-9211e.web.app',
-        image: '/projects/e-commerce-website.png',
+        image: '/projects/e-commerce.webp',
       },
       {
         title: 'Task Management App',

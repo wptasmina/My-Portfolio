@@ -29,7 +29,7 @@ export function ProjectCard({
           width={300}
           height={300}
           alt={title}
-          className="pb-4 rounded-t-lg"
+          className="pb-4 rounded-t-lg bottom-top-0 object-cover w-full"
         />
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
