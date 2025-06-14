@@ -1,7 +1,8 @@
 "use client";
 
+import React from "react";
 import { cn } from "@/lib/utils";
-import { DotPattern } from "@/components/magicui/dot-pattern";
+import { DotPattern } from "./magicui/dot-pattern";
 
 export function DotPatternDemo() {
   return (
