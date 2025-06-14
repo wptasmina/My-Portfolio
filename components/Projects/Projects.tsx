@@ -1,9 +1,12 @@
-import { ShinyButton } from "@/components/magicui/shiny-button";
-import SectionTitle from "@/components/shared/CustomStyle/SectionTitle/SectionTitle";
+
 import { projects } from "@/data/projects";
 import { ProjectCard } from "./ProjectCard";
-import { RainbowButton } from "@/components/magicui/rainbow-button";
 import Link from "next/link";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
+import { ShinyButton } from "@/components/magicui/shiny-button"; 
+import SectionTitle from "../shared/CustomStyle/SectionTitle/SectionTitle";
+
+
 
 const Projects = () => {
   return (
