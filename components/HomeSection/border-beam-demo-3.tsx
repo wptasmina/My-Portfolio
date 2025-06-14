@@ -8,7 +8,7 @@ import { CountsUp } from "./CountsUp";
 
 export default function Counts() {
   return (
-    <Card className="relative dark:bg-zinc-950 md:w-[80%] overflow-hidden">
+    <Card className="relative bg-white/10 dark:bg-zinc-950/20 backdrop-blur-xl border border-white/10 dark:border-white/5 md:w-[80%] overflow-hidden">
 
         <div>
             <CountsUp />
