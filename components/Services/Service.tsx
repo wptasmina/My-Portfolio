@@ -6,7 +6,7 @@ import ServicesCard from "./ServicesCard";
 import { ShinyButton } from "@/components/magicui/shiny-button";
 import { services } from "@/data/services"; 
 import SectionTitle from "../shared/CustomStyle/SectionTitle/SectionTitle";
-import { ServerIcon } from "@heroicons/react/24/outline";
+
 
  
 const Service = () => {
@@ -37,7 +37,7 @@ const Service = () => {
           "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]"
         )}
       />
-      <div className="d-grid gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((service, index) => (
           <ServicesCard key={index} {...service}
           />
