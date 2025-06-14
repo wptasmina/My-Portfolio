@@ -13,7 +13,7 @@ import { Project } from "@/types";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 import Link from "next/link";
 
-export function ProjestCard({
+export function ProjectCard({
   title,
   description,
   technologies,

@@ -1,6 +1,6 @@
-
 import { projects } from '@/data/projects';
-import { ProjestCard } from './ProjestCard';
+import { ProjectCard } from './ProjectCard';
+
 
 export default function AllProject() {
   return (
@@ -12,7 +12,7 @@ export default function AllProject() {
          {/* More content here */}
           <div className="d-grid gap-6 shadow-2xl">
             {projects.map((project, index) => (
-              <ProjestCard key={index} {...project} />
+              <ProjectCard key={index} {...project} />
             ))}
           </div>
         

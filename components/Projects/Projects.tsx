@@ -1,7 +1,7 @@
 import { ShinyButton } from "@/components/magicui/shiny-button";
 import SectionTitle from "@/components/shared/CustomStyle/SectionTitle/SectionTitle";
 import { projects } from "@/data/projects";
-import { ProjestCard } from "@/components/Projects/ProjestCard";
+import { ProjectCard } from "./ProjectCard";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
 import Link from "next/link";
 
@@ -19,7 +19,7 @@ const Projects = () => {
         {/* More content here */}
         <div className="relative z-10 d-grid gap-6 shadow-2xl">
           {projects.slice(0, 6).map((project, index) => (
-            <ProjestCard key={index} {...project} />
+            <ProjectCard key={index} {...project} />
           ))}
         </div>
 
