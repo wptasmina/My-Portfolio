@@ -28,7 +28,7 @@ export interface SectionTitleProps {
   subHeading: string
 }
 
-//  Hero CountUp 
+//  Hero CountUp //stats.ts
 export interface StatItem {
   num: number;
   text: string;

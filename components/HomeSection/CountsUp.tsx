@@ -1,12 +1,5 @@
-import { StatItem } from '@/types';
 import CountUp from 'react-countup';
-
-const stats: StatItem[] = [
-  { num: 2, text: "Years of experience" },
-  { num: 26, text: "Projects completed" },
-  { num: 10, text: "Technologies mastered" },
-  { num: 500, text: "Code commits" },
-];
+import stats from '@/data/stats';
 
 export const CountsUp = () => {
   return (
