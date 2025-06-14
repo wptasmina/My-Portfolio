@@ -7,8 +7,8 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <section id="project" className="section-continar pt-4 pb-20 ">
-      <div className="wrapper bg-black/60">
+    <section id="project" className="min-h-screen bg-black/60 py-10 relative overflow-hidden">
+      <div className="wrapper ">
         <div className="text-center relative z-10 mb-10">
           <ShinyButton>Recent Projects</ShinyButton>
           <SectionTitle

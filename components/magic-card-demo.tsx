@@ -33,7 +33,7 @@ export default function MagicCardDemo() {
             <div className="grid gap-4">
               <div className="grid gap-2">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" type="email" placeholder="name@example.com" />
+                <Input id="email" type="email" placeholder="tasmina163@gmail.com" />
               </div>
               {/* <div className="grid gap-2">
                 <Label htmlFor="password">Password</Label>

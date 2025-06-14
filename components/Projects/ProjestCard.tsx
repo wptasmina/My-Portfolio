@@ -22,12 +22,12 @@ export function ProjestCard({
   image,
 }: Project) {
   return (
-    <Card className="relative w-[350px] overflow-hidden flex flex-col">
+    <Card className="relative w-full mx-auto overflow-hidden flex flex-col">
       <CardHeader>
         <Image
           src={image}
-          width={500}
-          height={500}
+          width={300}
+          height={300}
           alt={title}
           className="pb-4 rounded-t-lg"
         />
