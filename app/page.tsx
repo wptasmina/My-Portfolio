@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HomeSection/HeroSection";
-import { Button } from "@/components/ui/button";
+import Projects from "@/components/Projects/Projects";
 // import AboutPage from "./about/page";
 
 
@@ -10,9 +10,8 @@ export default function Home() {
         <HeroSection />
 
         {/* <AboutPage/> */}
-        <div>
-          <Button>Click me</Button>
-        </div>
+
+       <Projects />
       </main>
 
   );
