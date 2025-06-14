@@ -19,7 +19,7 @@ const ServicesCard = ({ icon: Icon, title, description }: Service) => {
         <div className="mb-6 animate-float">
         <ShimmerButton className="rounded-full p-3">
           <span className="shimmerButton-span ">
-           <Icon className="w-7 h-7" strokeWidth={1.5} />
+           <Icon className="w-7 h-7 text-white" strokeWidth={1.5} />
           </span>
         </ShimmerButton>
         </div>

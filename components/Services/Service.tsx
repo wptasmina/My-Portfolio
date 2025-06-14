@@ -13,7 +13,7 @@ const Service = () => {
   return (
     <section
       id="services"
-      className="relative min-h-screen bg-white dark:bg-black/60 py-10  overflow-hidden"
+      className="relative min-h-screen bg-zinc-50 dark:bg-black/60 py-10  overflow-hidden"
     >
     <div className="wrapper">
        

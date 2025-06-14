@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <section id="project" className="min-h-screen bg-black/60 py-10 relative overflow-hidden">
+    <section id="project" className="min-h-screen bg-zinc-50 dark:bg-black/60 py-10 relative overflow-hidden">
       <div className="wrapper ">
         <div className="text-center relative z-10 mb-10">
           <ShinyButton>Recent Projects</ShinyButton>
@@ -17,7 +17,7 @@ const Projects = () => {
           />
         </div>
         {/* More content here */}
-        <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 shadow-2xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {projects.slice(0, 6).map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
