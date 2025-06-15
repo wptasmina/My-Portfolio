@@ -4,7 +4,6 @@ import Link from "next/link";
 import SectionTitle from "../shared/CustomStyle/SectionTitle/SectionTitle";
 import { projects } from "@/data/projects";
 import { ProjectCard } from "./ProjectCard";
-import { Button } from "../ui/button";
 import { ShinyButton } from "../magicui/shiny-button";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
 
