@@ -25,14 +25,14 @@ export function Skill() {
           </ul>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/projects/chat-app.png"
+              src="/projects/task-manager.webp"
               alt="Chat App"
               width={500}
               height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
             <Image
-              src="/projects/recipe-finder.png"
+              src="/projects/task-manager.webp"
               alt="Recipe Finder"
               width={500}
               height={300}
@@ -52,14 +52,14 @@ export function Skill() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/projects/chat-app.png"
+              src="/projects/task-manager.webp"
               alt="Chat App"
               width={500}
               height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
             <Image
-              src="/projects/recipe-finder.png"
+              src="/projects/task-manager.webp"
               alt="Recipe App"
               width={500}
               height={300}
@@ -80,7 +80,7 @@ export function Skill() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/projects/portfolio-website.jpg"
+              src="/projects/task-manager.webp"
               alt="Portfolio"
               width={500}
               height={300}
@@ -114,7 +114,7 @@ export function Skill() {
            
 
             <Image
-              src="/projects/e-commerce-website.png"
+              src="/projects/task-manager.webp"
               alt="E-commerce Site"
               width={500}
               height={300}
@@ -122,7 +122,7 @@ export function Skill() {
             />
 
             <Image
-              src="/projects/expense-tracker.webp"
+              src="/projects/task-manager.webp"
               alt="Tracker"
               width={500}
               height={300}
