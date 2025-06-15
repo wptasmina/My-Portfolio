@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import tasmiImg from "@/assets/tasmina.png";
 import { GridPattern } from "./magicui/grid-pattern";
-import { DotPattern } from "./magicui/dot-pattern";
 import { motion } from 'framer-motion';
 import { fadeLeft, fadeUp } from "@/lib/motionVariants";
 import { GradientButton } from "./ui/gradient-button";
@@ -26,17 +25,6 @@ export default function GridPatternLinearGradient() {
             "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]"
           )}
         />
-        
-          <DotPattern
-            width={20}
-            height={20}
-            cx={1}
-            cy={1}
-            cr={1}
-            className={cn(
-              "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]"
-            )}
-          />
       </div>
 
       {/* Main content over GridPattern */}
