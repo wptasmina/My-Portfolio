@@ -4,8 +4,6 @@ import ServicesPage from "./services/page";
 import Projects from "@/components/Projects/Projects";
 
 
-
-
 export default function Home() {
   return (
   
