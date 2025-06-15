@@ -2,6 +2,7 @@ import HeroSection from "@/components/HomeSection/HeroSection";
 import AboutPage from "./about/page";
 import ServicesPage from "./services/page";
 import Projects from "@/components/Projects/Projects";
+import MorganCard from "@/components/ReviewCard/MorganCard";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <HeroSection />
         <AboutPage/>
         <ServicesPage/>
+        <MorganCard/>
         <Projects />
 
         {/* <Contact /> */}
