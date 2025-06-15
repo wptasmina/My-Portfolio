@@ -18,7 +18,7 @@ const ServicesCard = ({ icon: Icon, title, description }: Service) => {
     ? theme === "dark"
       ? "#262626"
       : "#D9D9D955"
-    : "#D9D9D955"; // Fallback to light theme to avoid mismatch
+    : "#D9D9D955";
 
   return (
     <section className="flex flex-col h-full">
