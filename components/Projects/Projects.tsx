@@ -1,11 +1,10 @@
 'use client'
 
 import Link from "next/link";
-import { ShinyButton } from "../magicui/shiny-button";
 import SectionTitle from "../shared/CustomStyle/SectionTitle/SectionTitle";
 import { projects } from "@/data/projects";
 import { ProjectCard } from "./ProjectCard";
-import { RainbowButton } from "../magicui/rainbow-button";
+import { Button } from "../ui/button";
 
 
 const Projects = () => {
@@ -13,7 +12,8 @@ const Projects = () => {
     <section id="project" className="min-h-screen bg-zinc-50 dark:bg-black/60 py-10 relative overflow-hidden">
       <div className="wrapper ">
         <div className="text-center relative z-10 mb-10">
-          <ShinyButton>Recent Projects</ShinyButton>
+          {/* Shiny Button /  Recent Projects  */}
+          
           <SectionTitle
             heading="Showcase of My Work"
             subHeading="Explore a collection of projects that showcase my growth and commitment to building impactful, user-focused web solutions."
@@ -29,7 +29,7 @@ const Projects = () => {
         {/* AllProject button  */}
         <div className="text-center mt-12">
           <Link href="/projects">
-            <RainbowButton variant="outline">See All Projects</RainbowButton>
+            <Button variant="outline">See All Projects</Button>
           </Link>
         </div>
       </div>

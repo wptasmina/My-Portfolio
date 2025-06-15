@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import tasmiImg from "@/assets/tasmina.png";
 import { GridPattern } from "./magicui/grid-pattern";
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';    //lib/motionVariants
 import { fadeLeft, fadeUp } from "@/lib/motionVariants";
 import { GradientButton } from "./ui/gradient-button";
 import { ArrowDownTrayIcon, PhoneIcon } from "@heroicons/react/24/solid";
@@ -32,7 +32,8 @@ export default function GridPatternLinearGradient() {
         <div className="wrapper w-full">
           <div className="md:mt-0 lg:mt-0 flex flex-col-reverse md:flex-row items-center justify-between min-h-screen gap-8">
             {/* Text Content */}
-            <motion.div
+            <motion.div            
+
               {...fadeLeft}
               transition={fadeLeft.transition()}
               className="w-full md:w-2/3 text-center md:text-left lg:mt-15 md:mt-0 pb-10 md:pb-0"
