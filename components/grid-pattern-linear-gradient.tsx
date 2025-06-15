@@ -9,6 +9,7 @@ import { fadeLeft, fadeUp } from "@/lib/motionVariants";
 import { GradientButton } from "./ui/gradient-button";
 import { ArrowDownTrayIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import Counts from "./HomeSection/border-beam-demo-3";
+import { DotPattern } from "./magicui/dot-pattern";
 
 
 export default function GridPatternLinearGradient() {
@@ -25,6 +26,18 @@ export default function GridPatternLinearGradient() {
             "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]"
           )}
         />
+
+         <DotPattern
+            width={20}
+            height={20}
+            cx={1}
+            cy={1}
+            cr={1}
+            className={cn(
+              "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]"
+            )}
+          />
+
       </div>
 
       {/* Main content over GridPattern */}
