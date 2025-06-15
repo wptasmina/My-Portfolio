@@ -5,6 +5,7 @@ import SectionTitle from "../shared/CustomStyle/SectionTitle/SectionTitle";
 import { projects } from "@/data/projects";
 import { ProjectCard } from "./ProjectCard";
 import { Button } from "../ui/button";
+import { ShinyButton } from "../magicui/shiny-button";
 
 
 const Projects = () => {
@@ -13,7 +14,7 @@ const Projects = () => {
       <div className="wrapper ">
         <div className="text-center relative z-10 mb-10">
           {/* Shiny Button /  Recent Projects  */}
-          
+          <ShinyButton>Recent Projects</ShinyButton>
           <SectionTitle
             heading="Showcase of My Work"
             subHeading="Explore a collection of projects that showcase my growth and commitment to building impactful, user-focused web solutions."
