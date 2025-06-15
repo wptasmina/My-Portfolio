@@ -19,7 +19,7 @@ using React, Next.js, TypeScript, Tailwind CSS, Zustand, and more.
 |----------|---------|------------------|-------------------   |
 | Next.js  | Tailwind CSS | Zustand, Redux  |  TypeScript      |
 | React.js | CSS Modules  | TanStack Query  | Vercel (Deploy)  |
-| HTML5    | SCSS         |                 | Git, GitHub      |
+| HTML5    |              |                 | Git, GitHub      |
 
 ## 📁 Folder Structure (Simplified)
 
