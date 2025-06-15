@@ -3,7 +3,9 @@
 ````md
 # Tasmina Akter - Frontend Developer Portfolio
 
-Hi! I'm **Tasmina Akter**, a frontend developer from Sylhet, Bangladesh.<br/> I build interactive, modern, and performance-optimized web applications<br/> using React, Next.js, TypeScript, Tailwind CSS, Zustand, and more.
+Hi! I'm **Tasmina Akter**, a frontend developer from Sylhet, Bangladesh.
+I build interactive, modern, and performance-optimized web applications
+using React, Next.js, TypeScript, Tailwind CSS, Zustand, and more.
 
 ## 🔗 Live Site
 
