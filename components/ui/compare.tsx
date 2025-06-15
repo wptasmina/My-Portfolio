@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { SparklesCore } from "@/components/ui/sparkles";
-import { AnimatePresence, motion } from "framer-motion"; // ✅ Use framer-motion
+import { AnimatePresence, motion } from "framer-motion"; 
 import { cn } from "@/lib/utils";
 import { IconDotsVertical } from "@tabler/icons-react";
 
@@ -10,7 +10,7 @@ interface CompareProps {
   secondImage?: string;
   className?: string;
   firstImageClassName?: string;
-  secondImageClassName?: string; // ✅ fixed typo
+  secondImageClassName?: string; 
   initialSliderPercentage?: number;
   slideMode?: "hover" | "drag";
   showHandlebar?: boolean;

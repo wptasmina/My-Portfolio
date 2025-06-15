@@ -6,7 +6,7 @@ import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import { Compare } from "@/components/ui/compare";
 import { AnimatedListDemo } from "./AnimatedList";
-
+ import Image from "next/image";
 export function Skill() {
   const data = [
     {
@@ -24,14 +24,18 @@ export function Skill() {
             <li>✅ Cloud & CI/CD Integration</li>
           </ul>
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/projects/chat-app.png"
               alt="Chat App"
+              width={500}
+              height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
-            <img
+            <Image
               src="/projects/recipe-finder.png"
               alt="Recipe Finder"
+              width={500}
+              height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
           </div>
@@ -47,14 +51,18 @@ export function Skill() {
             Integrated real-time functionality using WebSockets.
           </p>
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/projects/chat-app.png"
               alt="Chat App"
+              width={500}
+              height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
-            <img
+            <Image
               src="/projects/recipe-finder.png"
               alt="Recipe App"
+              width={500}
+              height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
           </div>
@@ -71,14 +79,18 @@ export function Skill() {
             interfaces.
           </p>
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/projects/portfolio-website.jpg"
               alt="Portfolio"
+              width={500}
+              height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
-            <img
+            <Image
               src="/projects/task-manager.webp"
               alt="Task Manager"
+              width={500}
+              height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
           </div>
@@ -99,14 +111,21 @@ export function Skill() {
             <li>🧠 Mastered animation using Framer Motion</li>
           </ul>
           <div className="grid grid-cols-2 gap-4">
-            <img
+           
+
+            <Image
               src="/projects/e-commerce-website.png"
               alt="E-commerce Site"
+              width={500}
+              height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
-            <img
+
+            <Image
               src="/projects/expense-tracker.webp"
               alt="Tracker"
+              width={500}
+              height={300}
               className="rounded-xl w-full h-28 md:h-44 lg:h-56 object-cover shadow-md"
             />
           </div>
