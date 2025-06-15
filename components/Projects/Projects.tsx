@@ -6,14 +6,14 @@ import { projects } from "@/data/projects";
 import { ProjectCard } from "./ProjectCard";
 import { Button } from "../ui/button";
 import { ShinyButton } from "../magicui/shiny-button";
-
+import { RainbowButton } from "@/components/magicui/rainbow-button";
 
 const Projects = () => {
   return (
     <section id="project" className="min-h-screen bg-zinc-50 dark:bg-black/60 py-10 relative overflow-hidden">
       <div className="wrapper ">
         <div className="text-center relative z-10 mb-10">
-          {/* Shiny Button /  Recent Projects  */}
+          {/* Shiny Button */}
           <ShinyButton>Recent Projects</ShinyButton>
           <SectionTitle
             heading="Showcase of My Work"
@@ -30,7 +30,7 @@ const Projects = () => {
         {/* AllProject button  */}
         <div className="text-center mt-12">
           <Link href="/projects">
-            <Button variant="outline">See All Projects</Button>
+            <RainbowButton variant="outline">See All Projects</RainbowButton>
           </Link>
         </div>
       </div>

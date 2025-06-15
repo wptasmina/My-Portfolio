@@ -115,6 +115,14 @@ a {
   100% {
     transform: translateZ(0) rotate(360deg);
     }
+  }
+  @keyframes rainbow {
+  0% {
+    background-position: 0%;
+    }
+  100% {
+    background-position: 200%;
+    }
   }}
 
 :root {
@@ -242,7 +250,6 @@ a {
   /* .btnSocial {
     @apply w-10 h-10 flex items-center justify-center cursor-pointer rounded-full bg-black text-[#e6e6e6] font-semibold border transition duration-300
   } */
-
 
     /* hero section start */
   .hero-title {
