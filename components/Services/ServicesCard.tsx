@@ -21,10 +21,10 @@ const ServicesCard = ({ icon: Icon, title, description }: Service) => {
     : "#D9D9D955";
 
   return (
-    <section className="flex flex-col h-full">
-      <div className="group relative flex flex-col h-full">
+    <section className="flex flex-col h-full overflow-hidden">
+      <div className="group relative overflow-hidden flex flex-col h-full">
         <MagicCard
-          className="relative glass rounded-2xl p-8 gradient-border transition-all duration-300 hover:-translate-y-1 flex flex-col flex-grow"
+          className="relative overflow-hidden glass rounded-2xl p-8 gradient-border transition-all duration-300 hover:-translate-y-1 flex flex-col flex-grow"
           gradientColor={gradientColor}
         >
           {/* Icon Section */}

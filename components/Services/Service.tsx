@@ -13,18 +13,14 @@ const Service = () => {
   return (
     <section
       id="services"
-      className="relative min-h-screen bg-zinc-50 dark:bg-black/60 py-10  overflow-hidden"
+      className="relative min-h-screen bg-zinc-50 dark:bg-black/60 py-20 overflow-hidden"
     >
     <div className="wrapper">
-       
-
-      <div className="text-center relative z-10 mb-10">
+      <div className="text-center relative overflow-hidden z-10 mb-10">
         <ShinyButton>Services</ShinyButton>
         <SectionTitle
          heading={`Crafting Impactful Digital Experiences`}
-
-         subHeading={`Turning bold ideas into beautiful, high-performance web solutions—
-powered by modern technology and thoughtful design.`}
+         subHeading={`Turning bold ideas into beautiful, high-performance web solutions—powered by modern technology and thoughtful design.`}
          />
       </div>
        <DotPattern
