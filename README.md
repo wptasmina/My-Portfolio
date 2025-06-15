@@ -1,6 +1,4 @@
-Sure, here's a professional and clean `README.md` template for your **personal portfolio** in table format:
 
----
 
 ````md
 # Tasmina Akter - Frontend Developer Portfolio
@@ -48,7 +46,6 @@ git clone https://github.com/yourusername/your-portfolio
 cd your-portfolio
 pnpm install
 pnpm run dev
-````
 
 ## 📬 Contact
 
@@ -62,9 +59,4 @@ pnpm run dev
 
 Thank you for visiting my portfolio!
 
-```
 
----
-
-Let me know if you'd like a [dark-mode badge style readme](f), want to add [project cards or screenshots](f), or need this in [Bangla format](f).
-```
