@@ -7,7 +7,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { MagicCard } from "../magicui/magic-card";
-// import { useTheme } from "next-themes";
 import {
   IconBrandFacebook,
   IconBrandInstagram,
@@ -18,6 +17,7 @@ import {
 } from "@tabler/icons-react";
 import { Linkedin } from "lucide-react";
 import Link from "next/link";
+// import { useTheme } from "next-themes";
 
 
 export default function SidebarCard() {
@@ -38,7 +38,7 @@ export default function SidebarCard() {
             </CardHeader>
 
             <CardContent className="p-4">
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-4 py-8">
+              <div className="grid md:grid-cols-4 gap-6 px-4 py-8">
                 {/* Full-width section on all screen sizes */}
                 <div className="border md:col-span-4 p-4 rounded-md font-medium shadow text-center">
                   <div className="w-16 h-16 mx-auto flex items-center justify-center border-2 border-dashed shadow-xl rounded-full">
@@ -92,8 +92,8 @@ export default function SidebarCard() {
                   <div className="w-16 h-16 mx-auto flex items-center justify-center border-2 border-dashed shadow-xl rounded-full">
                     <IconMailSpark className="w-6 h-6 " />
                   </div>
-                  <div className="mt-4 text-sm dark:text-gray-400 text-zinc-900">
-                    tasmina163@gmail.com
+                  <div className="mt-6 text-sm dark:text-gray-400 text-zinc-900">
+                    <p>tasmina163@gmail.com</p>
                   </div>
                 </div>
               </div>
