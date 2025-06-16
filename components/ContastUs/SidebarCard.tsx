@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  Card,
   CardContent,
   CardDescription,
   CardHeader,
@@ -53,7 +52,7 @@ export default function SidebarCard() {
                     <IconDevicesSearch className="w-6 h-6 " />
                   </div>
 
-                  <div className="mt-4 border-t py-2 bg-black flex flex-row items-center justify-center space-x-2">
+                  <div className="mt-4 border-t py-2 bg-black/60 rounded-b-lg overflow-hidden flex flex-row items-center justify-center space-x-2">
                     {[
                       {
                         icon: IconBrandGithub,

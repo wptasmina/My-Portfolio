@@ -1,4 +1,3 @@
-import { FaRegCircleDot } from "react-icons/fa6";
 import { ShinyButton } from "../magicui/shiny-button";
 import SectionTitle from "../shared/CustomStyle/SectionTitle/SectionTitle";
 import SidebarCard from "./SidebarCard";
