@@ -1,7 +1,7 @@
-import Contacts from "@/components/Contacts";
+import Contacts from "@/components/ContastUs/Contacts";
 
 
-export default function ContactPage() {
+export default function Contact() {
   return (
     <>
       <Contacts/>

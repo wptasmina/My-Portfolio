@@ -4,6 +4,7 @@ import ServicesPage from "./services/page";
 import Projects from "@/components/Projects/Projects";
 import MorganCard from "@/components/ReviewCard/MorganCard";
 import Faq from "@/components/Faqs/Faq";
+import Contact from "./contact/page";
 
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
         {/* <Skills/> */}
         {/* <Reviews/> */}
         <Faq/>
-        {/* <Contact /> */}
+        <Contact />
 
       </main>
 
