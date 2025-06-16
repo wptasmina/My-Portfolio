@@ -11,12 +11,13 @@ import { MagicCard } from "../magicui/magic-card";
 import {
   IconBrandFacebook,
   IconBrandInstagram,
-  IconBrandLinkedin,
   IconBuildingCommunity,
   IconDevicesSearch,
   IconMailSpark,
   IconBrandGithub,
 } from "@tabler/icons-react";
+import { Linkedin } from "lucide-react";
+import Link from "next/link";
 
 
 export default function SidebarCard() {
@@ -52,7 +53,7 @@ export default function SidebarCard() {
                     <IconDevicesSearch className="w-6 h-6 " />
                   </div>
 
-                  <div className="mt-4 border-t py-2 bg-black/60 rounded-b-lg overflow-hidden flex flex-row items-center justify-center space-x-2">
+                  <div className="mt-4 border-t py-2 dark:bg-black/60 rounded-b-lg overflow-hidden flex flex-row items-center justify-center space-x-2">
                     {[
                       {
                         icon: IconBrandGithub,
@@ -67,21 +68,21 @@ export default function SidebarCard() {
                         url: "https://instagram.com/wptasmina",
                       },
                       {
-                        icon: IconBrandLinkedin,
+                        icon: Linkedin,
                         url: "https://www.linkedin.com/in/wptasmina",
                       },
                     ].map(({ icon: Icon, url }, index) => (
-                      <a
+                      <Link
                         key={index}
                         href={url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group/btn h-8 flex items-center justify-center gap-2 rounded-md bg-gray-50 px-2 text-black shadow-input dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_#262626] relative"
+                        className="group/btn h-8 flex items-center justify-center gap-2 rounded-md px-2 text-black shadow-input bg-zinc-900 dark:shadow-[0px_0px_1px_1px_#262626] relative"
                         type="button"
                       >
-                        <Icon className="h-5 w-5 text-neutral-800 dark:text-neutral-300" />
+                        <Icon className="h-5 w-5 text-neutral-300" />
                         <BottomGradient />
-                      </a>
+                      </Link>
                     ))}
                   </div>
 
@@ -91,7 +92,7 @@ export default function SidebarCard() {
                   <div className="w-16 h-16 mx-auto flex items-center justify-center border-2 border-dashed shadow-xl rounded-full">
                     <IconMailSpark className="w-6 h-6 " />
                   </div>
-                  <div className="mt-4 text-xs dark:text-gray-400 text-zinc-900">
+                  <div className="mt-4 text-sm dark:text-gray-400 text-zinc-900">
                     tasmina163@gmail.com
                   </div>
                 </div>
