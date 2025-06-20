@@ -1,5 +1,6 @@
 import { ShinyButton } from "../magicui/shiny-button";
 import SectionTitle from "../shared/CustomStyle/SectionTitle/SectionTitle";
+import SignupFormDemo from "../signup-form-demo";
 import SidebarCard from "./SidebarCard";
 
 export default function Contacts() {
@@ -19,11 +20,19 @@ export default function Contacts() {
             />
           </div>
 
-          {/* SignupFormDemo  */}
+        
 
-          <SidebarCard />
         </div>
       </div>
+
+     <div className="grid md:grid-cols-2 border">
+          <div className="border">
+             <SignupFormDemo />
+          </div>
+
+          <SidebarCard />
+         </div>
+
     </section>
   );
 }
